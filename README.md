@@ -1,6 +1,6 @@
 # JupyterLab + Binder
 
-[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/jupyterlab/master?urlpath=lab/tree/index.ipynb)
+[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/jupyterlab/master?urlpath=lab/tree/index.html)
 
 JupyterLab is packaged with Binder repositories by default. In order to
 run a JupyterLab session, you have two options:
@@ -27,7 +27,7 @@ beginning with `tree/` to the end of `urlpath`, like so:
 
 For example, the Binder badge above goes to the following URL:
 
-`http://mybinder.org/v2/gh/binder-examples/jupyterlab/master?urlpath=lab/tree/index.ipynb`
+`http://mybinder.org/v2/gh/binder-examples/jupyterlab/master?urlpath=lab/tree/index.html`
 
 Note: this repository also installs several JupyterLab extensions via a `postBuild` script, allowing
 you to use JupyterLab's extensions and widgets functionality.
