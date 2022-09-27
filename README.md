@@ -1,6 +1,6 @@
-# JupyterLab + Binder
+# Presentation Template
 
-[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/wardsimon/talkTemplate/master?urlpath=lab/tree/index.html)
+[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/wardsimon/talkTemplate/master?urlpath=lab)
 
 JupyterLab is packaged with Binder repositories by default. In order to
 run a JupyterLab session, you have two options:

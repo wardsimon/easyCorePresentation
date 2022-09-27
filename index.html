@@ -5,6 +5,19 @@
         extensions: ["tex2jax.js", "TeX/AMSmath.js"],
         jax: ["input/TeX", "output/SVG"],
     })
+
+    var repo_details = "wardsimon.com/talkTemplate"
+    var presentation_url = "https://" + repo_details
+
+    var link = document.getElementById('presentation_reference');
+    link.href = presentation_url
+    link.innerHTML = repo_details
+
+
+    var link = document.getElementById('binder_link');
+    link.href = "https://mybinder.org/v2/gh/" + repo_details + "/master?urlpath=lab/"
+    link.innerHTML = "Interactive Binder Version"
+
 </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=default"></script>
@@ -13,8 +26,7 @@
 <html prefix="og: http://ogp.me/ns#" class="js no-mobile desktop no-ie chrome chrome68 talks-section gradient rgba opacity textshadow multiplebgs boxshadow borderimage borderradius cssreflections csstransforms csstransitions no-touch no-retina fontface domloaded gr__bitsandchips_me w-1920 gt-240 gt-320 gt-480 gt-640 gt-768 gt-800 gt-1024 gt-1280 gt-1440 gt-1680 no-portrait landscape" id="pycon-page">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<style id="stndz-style">div[class*="item-container-obpd"], a[data-redirect*="paid.outbrain.com"], a[onmousedown*="paid.outbrain.com"] { display: none !important; } a div[class*="item-container-ad"] { height: 0px !important; overflow: hidden !important; position: absolute !important; } div[data-item-syndicated="true"] { display: none !important; } .grv_is_sponsored { display: none !important; } .zergnet-widget-related { display: none !important; } 
-
+		<style id="stndz-style">div[class*="item-container-obpd"], a[data-redirect*="paid.outbrain.com"], a[onmousedown*="paid.outbrain.com"] { display: none !important; } a div[class*="item-container-ad"] { height: 0px !important; overflow: hidden !important; position: absolute !important; } div[data-item-syndicated="true"] { display: none !important; } .grv_is_sponsored { display: none !important; } .zergnet-widget-related { display: none !important; }
 		</style>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -36,7 +48,7 @@
 	<link rel="stylesheet" href="./css_etc/colorbrewer_syntax.css">
 
 	<!-- Favicon -->
-	<link rel="icon" href="./css_etc/pic.png">
+	<link rel="icon" href="./css_etc/ESS_symbol_cyan_CMYK.svg">
 
   <!-- Font awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -80,17 +92,20 @@
 						<div class="label"><a href="https://europeanspallationsource.se"><i class="fas fa-briefcase social_icon"></i><span>&nbsp;European Spallation Source</span></a></div>
 						<div class="label"><a href="mailto:simon.ward@ess.eu"><i class="fas fa-at social_icon"></i><span>&nbsp;simon.ward@ess.eu</span></a></div>
 						<div class="label"><a href="https://twitter.com/IdleBrainZdev"><i class="fab fa-twitter social_icon"></i><span>&nbsp;IdleBrainZdev</span></a></div>
-						<div class="label"><i class="fas fa-mars social_icon"></i><span>&nbsp;&nbsp;(he/him)</span></div>
+<!--						<div class="label"><i class="fas fa-mars social_icon"></i><span>&nbsp;&nbsp;(he/him)</span></div>-->
 					</div>
 					<div class="logo">
 					</div>
-					<a class="presentation-url" href="https://wardsimon.com/talkTemplate">wardsimon.com/talkTemplate</a>
+					<div>
+					<p><a class="presentation-url" id='presentation_reference'></a></p>
+					<p><a class="presentation-url" id='binder_link' target="_blank"></a></p>
+					</div>
 				</div>
 			</section>
 		</section>
 
 		<section class="stack present" style="display: block;" data-previous-indexv="0">
-			<section class="color--white past" id="" style="display: block;" hidden="" aria-hidden="true">
+			<section class="color--white past" id="c" style="display: block;" hidden="" aria-hidden="true">
 				<div class="grid-wrapper">
 					<div class="header">
 						<div class="logo">
@@ -123,7 +138,7 @@
 		</section>
 
 		<section class="stack present" style="display: block;" data-previous-indexv="0">
-			<section class="color--black past" id="" style="display: block;" hidden="" aria-hidden="true">
+			<section class="color--black past" id="d" style="display: block;" hidden="" aria-hidden="true">
 				<div class="grid-wrapper">
 					<div class="header">
 						<div class="logo">
@@ -152,7 +167,7 @@
 		</section>
 
 		<section class="stack present" style="display: block;" data-previous-indexv="0">
-			<section class="color--white past" id="" style="display: block;" hidden="" aria-hidden="true">
+			<section class="color--white past" id="e" style="display: block;" hidden="" aria-hidden="true">
 				<div class="grid-wrapper">
 					<div class="header">
 						<div class="logo">
